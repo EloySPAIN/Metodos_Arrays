@@ -3,10 +3,14 @@
  * @author Eloy Altozano Meijer
  *
  */
+import java.util.Scanner;
 public class MetodoCuatroApp {
 
 	public static void main(String[] args) {
-		System.out.println(factorial(5));
+		System.out.println("Escribe el numero: ");
+		Scanner scan=new Scanner(System.in);
+		int numero= scan.nextInt();
+		System.out.println(factorial(numero));
 	}
 	
 	public static int factorial(int x) {
