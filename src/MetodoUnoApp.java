@@ -44,7 +44,7 @@ public class MetodoUnoApp {
 			}
 		}
 
-	
+	//Metodos del circulo, triangulo y cuadrado
 	public static double circulo (double x) {
 		double resultado=(Math.pow(x, 2))*Math.PI;//Se utiliza math para calcular el area del circulo
 		return resultado;
