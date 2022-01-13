@@ -32,10 +32,12 @@ public class MetodoUnoApp {
 				Scanner sc3 = new Scanner(System.in);
 				String base = sc3.nextLine();
 				double basef= Double.parseDouble(base);
+				
 				System.out.println("Escribe la altura del triangulo: ");
 				Scanner sc4 = new Scanner(System.in);
 				String altura = sc4.nextLine();
 				double alturaf= Double.parseDouble(altura);
+				
 				System.out.println(triangulo(basef,alturaf));
 				break;
 			case "cuadrado":
@@ -43,10 +45,12 @@ public class MetodoUnoApp {
 				Scanner sc5 = new Scanner(System.in);
 				String lado1 = sc5.nextLine();
 				double lado1f= Double.parseDouble(lado1);
+				
 				System.out.println("Escribe el segundo lado del cuadrado: ");
 				Scanner sc6 = new Scanner(System.in);
 				String lado2 = sc6.nextLine();
 				double lado2f= Double.parseDouble(lado2);
+				
 				System.out.println(cuadrado(lado1f,lado2f));
 				break;
 			}
