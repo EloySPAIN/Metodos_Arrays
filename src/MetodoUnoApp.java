@@ -17,6 +17,7 @@ public class MetodoUnoApp {
 				System.out.println("Escribe el numero de radio a calcular: ");
 				//Funcion que se utiliza para pedir datos al usuario
 				Scanner sc2 = new Scanner(System.in);
+				//Asignamos el scanner a una variable tipo String
 				String radio = sc2.nextLine();
 				//Pasamos de string a double
 				double radiof= Double.parseDouble(radio);
