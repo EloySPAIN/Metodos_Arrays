@@ -12,6 +12,9 @@ public class MetodoUnoApp {
 		//Metodo que se utiliza para pedir datos al usuario
 		Scanner sc = new Scanner(System.in);
 		String nombre = sc.nextLine();
+		sw(nombre);
+		}
+	public static void sw(String nombre) {
 		switch(nombre) {
 			case "circulo":
 				System.out.println("Escribe el numero de radio a calcular: ");
@@ -47,8 +50,7 @@ public class MetodoUnoApp {
 				System.out.println(cuadrado(lado1f,lado2f));
 				break;
 			}
-		}
-
+	}
 	//Metodos del circulo, triangulo y cuadrado
 	public static double circulo (double x) {
 		//Se utiliza math para calcular el area del circulo
@@ -65,5 +67,6 @@ public class MetodoUnoApp {
 		double resultado=x*y;
 		return resultado;
 	}
+	
 
 }
