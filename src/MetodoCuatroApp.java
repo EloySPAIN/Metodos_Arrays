@@ -12,6 +12,7 @@ public class MetodoCuatroApp {
 	public static int factorial(int x) {
 		int resultado=1;
 		for(int i=x;i>0;i--) {
+			//La variable resultado se multiplica a si mismo con el numero anterior
 			resultado*=i;
 			x--;
 		}
