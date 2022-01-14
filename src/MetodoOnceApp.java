@@ -47,5 +47,6 @@ public class MetodoOnceApp {
 			System.out.println(array2[i]);
 		}
 	}
+	
 
 }
