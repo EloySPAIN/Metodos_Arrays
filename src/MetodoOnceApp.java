@@ -23,6 +23,7 @@ public class MetodoOnceApp {
 		arrayUnoNumMostrar(array);
 		System.out.println("\nARRAY 2");
 		arrayDosNumMostrar(array2);
+		arrayMultiplicado(array,array2,parametro);
 
 	}
 	
@@ -48,5 +49,13 @@ public class MetodoOnceApp {
 		}
 	}
 	
+	public static void arrayMultiplicado(int array[], int array2[], int parametro) {
+		int arrayMulti[]=new int[parametro];
+		System.out.println("\n\nArray Multiplicado: ");
+		for(int i=0;i<parametro;i++) {
+			arrayMulti[i]=array[i]*array2[i];
+			System.out.println(arrayMulti[i]);
+		}
+	}
 
 }
